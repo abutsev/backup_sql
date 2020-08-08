@@ -1,0 +1,2 @@
+C:\OpenServer\modules\database\MySQL-8.0\bin\mysqldump -u wordpress -p1Qazzaq12wsx wordpress > C:\Backup\wordpress_%date:/=%_%time:~0,2%-%time:~3,2%-%time:~6,2%.sql
+forfiles.exe -p C:\Backup\ -s -d -30 -c "cmd /c del @path /q"
